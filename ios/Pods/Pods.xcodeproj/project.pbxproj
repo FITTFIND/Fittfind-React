@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152608FA18DA5E7B6E20051A650262DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1EB095B6AF656C516DF84793541B1141 /* Pods-FitfindTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CFEB1ED3BEE6C892DDE3D12218F03 /* Pods-FitfindTests-dummy.m */; };
+		24396C6DD1DB741EEA0361FE577A35F6 /* Pods-FitfindTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8625B27088A67E1E4F5C5B1E7835B9AC /* Pods-FitfindTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7F76464D17E2EC202698080A37554A /* Pods-Fitfind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3690867573B3DE4D46756F14200941FF /* Pods-Fitfind-dummy.m */; };
+		995A4652D0375494A8F61FA0A97453DC /* Pods-Fitfind-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7FA78FAF8D772276190D3BF85F18F8 /* Pods-Fitfind-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7402EF8BC3EAE45628EB020993C573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F600A2749853BFDB5C521FDA247FBC /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		155FF02A9F2BAF634BA86816ECEBE3A8 /* Pods-FitfindTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitfindTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1683EC89665A9D63453AE28356FA98DA /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
+		1A1AECF277A7E4625DE8ACF6C7FB3817 /* Pods-Fitfind-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fitfind-frameworks.sh"; sourceTree = "<group>"; };
+		1C0B12A860104FA9B148978127550144 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		20D5254FC308E8637E37BF06101026CF /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		2574DD2F92988D61F22D0F0D2C6513F8 /* Pods-Fitfind-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fitfind-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2627D0B10A819A0A6589A79987B0C9E4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		31A7E2462EE77F6DDC33CF3B2B06BEEA /* Pods-FitfindTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitfindTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33CCEB2A89A8E8FC71D01EFFE0D5A826 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DF275FA5BC0BFA37B235D55FCF1D7F /* Pods-Fitfind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitfind.release.xcconfig"; sourceTree = "<group>"; };
+		3690867573B3DE4D46756F14200941FF /* Pods-Fitfind-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fitfind-dummy.m"; sourceTree = "<group>"; };
+		39B5CAD202D89977BE20DEACCC365B3A /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		3BFF9FE7652C5BC538D19BBF67E3FFCD /* Pods-FitfindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitfindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4705CD983285E6F2477A9C9940C0F5CA /* Pods_Fitfind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitfind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		472C4423DEC53D641C82F8FCD7D0D905 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		6E7FA78FAF8D772276190D3BF85F18F8 /* Pods-Fitfind-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fitfind-umbrella.h"; sourceTree = "<group>"; };
+		7DBF767148E60A08D88A3D5A89A53DAD /* Pods-Fitfind-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fitfind-resources.sh"; sourceTree = "<group>"; };
+		85B6DFA66D0725973F19DF6AEC2671B5 /* Pods-FitfindTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FitfindTests.modulemap"; sourceTree = "<group>"; };
+		85E73E9329C0B41095D89B46C439363F /* Pods-FitfindTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitfindTests-resources.sh"; sourceTree = "<group>"; };
+		8625B27088A67E1E4F5C5B1E7835B9AC /* Pods-FitfindTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitfindTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD68F294400CF76C8B9D24570ABB3114 /* Pods_FitfindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitfindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECA4DE1DDC0E9B7E49FCF0904B5ECCA /* Pods-Fitfind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitfind.debug.xcconfig"; sourceTree = "<group>"; };
+		AFA5AA84CC4353568A830AB266789B20 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		B66CFEB1ED3BEE6C892DDE3D12218F03 /* Pods-FitfindTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitfindTests-dummy.m"; sourceTree = "<group>"; };
+		B8F7906FD32AB8A816C910147B050E59 /* Pods-Fitfind.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Fitfind.modulemap"; sourceTree = "<group>"; };
+		BCDAB4031F4F50D580A77B216B676F94 /* Pods-FitfindTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitfindTests-frameworks.sh"; sourceTree = "<group>"; };
+		C00440DD8BE0E675A1BC2A73C025F628 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E60716CCDF4AD7535773676520055954 /* Pods-FitfindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitfindTests.release.xcconfig"; sourceTree = "<group>"; };
+		E846BD5827896A431766375E24258014 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95A1C6CA8C0BB09181493AEBE195470 /* Pods-Fitfind-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fitfind-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9D13747CB38FF555B779B39ABB1B67F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5268F4ADD82085A5F819FEAE69F5C45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7402EF8BC3EAE45628EB020993C573 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B025FC57F5C614684AEDAC4C4AAE4885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152608FA18DA5E7B6E20051A650262DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFCC4150E618FBE331E73A6660042B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0B12A860104FA9B148978127550144 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20FB9131D6E63573057DD0F3A6A90BC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8959607EF9D6AD5D236EDEE74B9409CA /* Pods-Fitfind */,
+				E507DFA6E42938B522576BE6963E9E47 /* Pods-FitfindTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3731D04780F0213ABF152AE44F5A7C98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA5AA84CC4353568A830AB266789B20 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B64F1DF9E5A1DC82E30DA24DD5A9BF0 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8137F232B115241C6CB84E9E22629A3A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		4D295DDD3DF41C4E15F489B6BD260EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E43525F0F592D2EB2445F72AD839AD6 /* Firebase */,
+				6B996E6307B3991DC5ED177A517E494D /* FirebaseAnalytics */,
+				70AE91240F01C13C0BD4F6058C2CA7D7 /* FirebaseInstanceID */,
+				CB68482F8EA8DEA7860319BD302AF055 /* FirebaseMessaging */,
+				4E60C599EFBC7C7E64669F7727B7D445 /* GoogleInterchangeUtilities */,
+				8550173C9C0A593D4C6136EAC8E81FB0 /* GoogleIPhoneUtilities */,
+				ADE0FE92B9C3819605C1D88E46CD24E6 /* GoogleSymbolUtilities */,
+				4B64F1DF9E5A1DC82E30DA24DD5A9BF0 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E60C599EFBC7C7E64669F7727B7D445 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				664BDA1DB86274BA6435FAB19E477153 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		557A2846976C14C26DDB51EAA0F88840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00440DD8BE0E675A1BC2A73C025F628 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F145594E348B674A7F38768564A221C /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				39B5CAD202D89977BE20DEACCC365B3A /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		664BDA1DB86274BA6435FAB19E477153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2627D0B10A819A0A6589A79987B0C9E4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B996E6307B3991DC5ED177A517E494D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				557A2846976C14C26DDB51EAA0F88840 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		6E43525F0F592D2EB2445F72AD839AD6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5F145594E348B674A7F38768564A221C /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		70AE91240F01C13C0BD4F6058C2CA7D7 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				08F600A2749853BFDB5C521FDA247FBC /* FIRInstanceID.h */,
+				3731D04780F0213ABF152AE44F5A7C98 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D295DDD3DF41C4E15F489B6BD260EA2 /* Pods */,
+				BD88390540AE5849D2B57CD7D67C4920 /* Products */,
+				20FB9131D6E63573057DD0F3A6A90BC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8137F232B115241C6CB84E9E22629A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D5254FC308E8637E37BF06101026CF /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8550173C9C0A593D4C6136EAC8E81FB0 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0FFCC4150E618FBE331E73A6660042B5 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		8959607EF9D6AD5D236EDEE74B9409CA /* Pods-Fitfind */ = {
+			isa = PBXGroup;
+			children = (
+				E846BD5827896A431766375E24258014 /* Info.plist */,
+				B8F7906FD32AB8A816C910147B050E59 /* Pods-Fitfind.modulemap */,
+				2574DD2F92988D61F22D0F0D2C6513F8 /* Pods-Fitfind-acknowledgements.markdown */,
+				E95A1C6CA8C0BB09181493AEBE195470 /* Pods-Fitfind-acknowledgements.plist */,
+				3690867573B3DE4D46756F14200941FF /* Pods-Fitfind-dummy.m */,
+				1A1AECF277A7E4625DE8ACF6C7FB3817 /* Pods-Fitfind-frameworks.sh */,
+				7DBF767148E60A08D88A3D5A89A53DAD /* Pods-Fitfind-resources.sh */,
+				6E7FA78FAF8D772276190D3BF85F18F8 /* Pods-Fitfind-umbrella.h */,
+				AECA4DE1DDC0E9B7E49FCF0904B5ECCA /* Pods-Fitfind.debug.xcconfig */,
+				33DF275FA5BC0BFA37B235D55FCF1D7F /* Pods-Fitfind.release.xcconfig */,
+			);
+			name = "Pods-Fitfind";
+			path = "Target Support Files/Pods-Fitfind";
+			sourceTree = "<group>";
+		};
+		AC32674AFF089547148C37ECF34A526C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D13747CB38FF555B779B39ABB1B67F /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADE0FE92B9C3819605C1D88E46CD24E6 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2B96B6DC24D390B8C6791D705B52FC4 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD88390540AE5849D2B57CD7D67C4920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4705CD983285E6F2477A9C9940C0F5CA /* Pods_Fitfind.framework */,
+				AD68F294400CF76C8B9D24570ABB3114 /* Pods_FitfindTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB68482F8EA8DEA7860319BD302AF055 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				1683EC89665A9D63453AE28356FA98DA /* FIRMessaging.h */,
+				AC32674AFF089547148C37ECF34A526C /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		E507DFA6E42938B522576BE6963E9E47 /* Pods-FitfindTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CCEB2A89A8E8FC71D01EFFE0D5A826 /* Info.plist */,
+				85B6DFA66D0725973F19DF6AEC2671B5 /* Pods-FitfindTests.modulemap */,
+				155FF02A9F2BAF634BA86816ECEBE3A8 /* Pods-FitfindTests-acknowledgements.markdown */,
+				31A7E2462EE77F6DDC33CF3B2B06BEEA /* Pods-FitfindTests-acknowledgements.plist */,
+				B66CFEB1ED3BEE6C892DDE3D12218F03 /* Pods-FitfindTests-dummy.m */,
+				BCDAB4031F4F50D580A77B216B676F94 /* Pods-FitfindTests-frameworks.sh */,
+				85E73E9329C0B41095D89B46C439363F /* Pods-FitfindTests-resources.sh */,
+				8625B27088A67E1E4F5C5B1E7835B9AC /* Pods-FitfindTests-umbrella.h */,
+				3BFF9FE7652C5BC538D19BBF67E3FFCD /* Pods-FitfindTests.debug.xcconfig */,
+				E60716CCDF4AD7535773676520055954 /* Pods-FitfindTests.release.xcconfig */,
+			);
+			name = "Pods-FitfindTests";
+			path = "Target Support Files/Pods-FitfindTests";
+			sourceTree = "<group>";
+		};
+		F2B96B6DC24D390B8C6791D705B52FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				472C4423DEC53D641C82F8FCD7D0D905 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E05A1BAAF3A772ECADCB1DA63C67322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995A4652D0375494A8F61FA0A97453DC /* Pods-Fitfind-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A594021FA37B26B85A838CD185061F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24396C6DD1DB741EEA0361FE577A35F6 /* Pods-FitfindTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16095E3A507A6DD9F5B857D7CBCFC2C6 /* Pods-Fitfind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFB4CC545F63F97E137B3D6CA37F861 /* Build configuration list for PBXNativeTarget "Pods-Fitfind" */;
+			buildPhases = (
+				405693AD7FD6F01E3546B8E95869C1FE /* Sources */,
+				B025FC57F5C614684AEDAC4C4AAE4885 /* Frameworks */,
+				7E05A1BAAF3A772ECADCB1DA63C67322 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Fitfind";
+			productName = "Pods-Fitfind";
+			productReference = 4705CD983285E6F2477A9C9940C0F5CA /* Pods_Fitfind.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88A01051C90B34AB41076056753D01C7 /* Pods-FitfindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09781A9EC4A1F9E2262D53516D8E9D7 /* Build configuration list for PBXNativeTarget "Pods-FitfindTests" */;
+			buildPhases = (
+				CAABDF850F4E2BDC405F8C4040BA0083 /* Sources */,
+				5268F4ADD82085A5F819FEAE69F5C45F /* Frameworks */,
+				A594021FA37B26B85A838CD185061F51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FitfindTests";
+			productName = "Pods-FitfindTests";
+			productReference = AD68F294400CF76C8B9D24570ABB3114 /* Pods_FitfindTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD88390540AE5849D2B57CD7D67C4920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16095E3A507A6DD9F5B857D7CBCFC2C6 /* Pods-Fitfind */,
+				88A01051C90B34AB41076056753D01C7 /* Pods-FitfindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405693AD7FD6F01E3546B8E95869C1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7F76464D17E2EC202698080A37554A /* Pods-Fitfind-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABDF850F4E2BDC405F8C4040BA0083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB095B6AF656C516DF84793541B1141 /* Pods-FitfindTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F839427C48E04D587BA04935C359390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECA4DE1DDC0E9B7E49FCF0904B5ECCA /* Pods-Fitfind.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitfind/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitfind/Pods-Fitfind.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fitfind;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E7FB001EE00F8E85E39DD9C7B3D2A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFF9FE7652C5BC538D19BBF67E3FFCD /* Pods-FitfindTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitfindTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitfindTests/Pods-FitfindTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitfindTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C717D353586F68D78794D5260FEB0E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DF275FA5BC0BFA37B235D55FCF1D7F /* Pods-Fitfind.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitfind/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitfind/Pods-Fitfind.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fitfind;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA9A596014EBD94532BD2B916B413D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60716CCDF4AD7535773676520055954 /* Pods-FitfindTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FitfindTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitfindTests/Pods-FitfindTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FitfindTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFB4CC545F63F97E137B3D6CA37F861 /* Build configuration list for PBXNativeTarget "Pods-Fitfind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F839427C48E04D587BA04935C359390 /* Debug */,
+				C717D353586F68D78794D5260FEB0E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09781A9EC4A1F9E2262D53516D8E9D7 /* Build configuration list for PBXNativeTarget "Pods-FitfindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7FB001EE00F8E85E39DD9C7B3D2A44 /* Debug */,
+				FA9A596014EBD94532BD2B916B413D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

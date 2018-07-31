@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "770473616883",
+    "firebase_url": "https://fitfind-48a97.firebaseio.com",
+    "project_id": "fitfind-48a97",
+    "storage_bucket": "fitfind-48a97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770473616883:android:ba0017f8e0b56e4c",
+        "android_client_info": {
+          "package_name": "com.fitfind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770473616883-un6jep1q1mr51dg9lq1v1c6fiftfprcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitfind",
+            "certificate_hash": "7CF743B53D798B31E8D55765A922B91297878C0F"
+          }
+        },
+        {
+          "client_id": "770473616883-fd0mebk7ohf4nm9ao6ntsd21eu42p8u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeoCWkXpwhu0ObvDFWtK2F6RQ3f4zsDkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770473616883-fd0mebk7ohf4nm9ao6ntsd21eu42p8u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
